@@ -8,9 +8,9 @@
 %define		egg_name	css_parser
 %define		pypi_name	css-parser
 Summary:	A CSS Cascading Style Sheets library for Python
-Name:		python-%{pypi_name}
+Name:		python-%{module}
 Version:	1.0.4
-Release:	1
+Release:	2
 License:	LGPL
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/c/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
@@ -35,12 +35,12 @@ A fork of the cssutils project based on version 1.0.2. This fork
 includes general bug fixes and extensions specific to editing and
 working with ebooks.
 
-%package -n python3-%{pypi_name}
+%package -n python3-%{module}
 Summary:	A CSS Cascading Style Sheets library for Python
 Group:		Libraries/Python
 Requires:	python3-modules
 
-%description -n python3-%{pypi_name}
+%description -n python3-%{module}
 A fork of the cssutils project based on version 1.0.2. This fork
 includes general bug fixes and extensions specific to editing and
 working with ebooks.
@@ -85,7 +85,7 @@ rm -rf $RPM_BUILD_ROOT
 %endif
 
 %if %{with python3}
-%files -n python3-%{pypi_name}
+%files -n python3-%{module}
 %defattr(644,root,root,755)
 %doc README.md
 %{py3_sitescriptdir}/%{module}
