@@ -10,7 +10,7 @@
 Summary:	A CSS Cascading Style Sheets library for Python
 Name:		python-%{module}
 Version:	1.0.4
-Release:	3
+Release:	4
 License:	LGPL
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/c/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
