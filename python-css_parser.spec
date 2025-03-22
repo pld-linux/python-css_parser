@@ -9,12 +9,12 @@
 %define		pypi_name	css-parser
 Summary:	A CSS Cascading Style Sheets library for Python
 Name:		python-%{module}
-Version:	1.0.4
-Release:	9
+Version:	1.0.10
+Release:	1
 License:	LGPL
 Group:		Libraries/Python
 Source0:	https://files.pythonhosted.org/packages/source/c/%{pypi_name}/%{pypi_name}-%{version}.tar.gz
-# Source0-md5:	c6caae4db5557a07b7353c97baa13767
+# Source0-md5:	9af58609a009baa3ce606779daefb615
 URL:		https://pypi.org/project/css-parser/
 BuildRequires:	rpm-pythonprov
 BuildRequires:	rpmbuild(macros) >= 1.714
